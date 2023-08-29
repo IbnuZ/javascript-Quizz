@@ -29,18 +29,6 @@ function startQuiz(quizIndex) {
   askQuestion();
 }
 
-// function startQuizMenu() {
-//   console.log("Selamat datang di quiz animek!");
-//   showQuizMenu();
-//   const buttons = Array.from(optionsElement.children)
-//   buttons.forEach((btn,i)=>{
-//     btn.addEventListener("click", () => {
-//       startQuiz(i)
-//       optionsElement.innerHTML = "";
-//     })
-//   });
-// }
-
 function startQuizMenu() {
   console.log("Selamat datang di quiz animek!");
   showQuizMenu();
